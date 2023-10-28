@@ -7,7 +7,7 @@ function submit(){
   var checkObj = { pName, quak, vale,}
   
   if( pName =="" || quak =="" || vale== "" ){
-     error.innerHTML= `<p style="color:white; background color:red"  >Please fill all </p>`
+     error.innerHTML= `<p style="color:red; "  >Please fill all </p>`
   }else{
     var checkArray =  JSON.parse(localStorage.getItem("budget")) || [];
     tem.value  =""
